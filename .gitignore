@@ -1,0 +1,20 @@
+#hivos de sockets de tmux
+/tmp/tmux-*
+
+# Ignorar archivos de sesión de tmux-resurrect
+~/.tmux/resurrect/*
+~/.tmux/plugins/tmux-resurrect/resurrect/
+
+# Ignorar archivos temporales del sistema
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+
+# Ignorar archivos de logs y cachés
+*.log
+.cache/
+
+plugins/
+
